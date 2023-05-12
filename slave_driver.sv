@@ -1,6 +1,7 @@
-class slave_driver extends uvm_driver/* #(slave_seq_i)*/;
+class slave_driver extends uvm_driver #(slave_seq_i);
 
     `uvm_component_utils(slave_driver)
+    
 function new(string name="slave_driver",uvm_component parent=null);
 
     super.new(name,parent);
@@ -18,27 +19,27 @@ task run_phase(uvm_phase phase);
 
 
 endtask
-function send_to_dut(master_seq_i seqi);
+function send_to_dut(slave_seq_i seqi);
         
 endfunction
 
-function write_addr(master_seq_i seqi);
+function write_addr(slave_seq_i seqi);
 
 endfunction
 
-function write_data(master_seq_i seqi);
+function write_data(slave_seq_i seqi);
 
 endfunction
 
-function write_resp(master_seq_i seqi);
+function write_resp(slave_seq_i seqi);
 
 endfunction
 
-function read_addr(master_seq_i seqi);
+function read_addr(slave_seq_i seqi);
 
 endfunction
 
-function read_data(master_seq_i seqi);
+function read_data(slave_seq_i seqi);
 
 endfunction
 endclass
