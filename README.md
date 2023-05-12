@@ -1,10 +1,10 @@
 # AXI_Protocol
 
-### The AXI (Advanced eXtensible Interface) protocol is a widely used standard for interconnecting components in a System-on-Chip (SoC) design. It provides a high-performance and low-latency interface for communication between IP (Intellectual Property) cores within an SoC.
+##### The AXI (Advanced eXtensible Interface) protocol is a widely used standard for interconnecting components in a System-on-Chip (SoC) design. It provides a high-performance and low-latency interface for communication between IP (Intellectual Property) cores within an SoC.
 
-### The AXI protocol defines a set of rules and signaling conventions for transferring data and control information between a master and a slave component. It supports efficient data transfer, burst transactions, out-of-order execution, and multiple outstanding transactions.
+##### The AXI protocol defines a set of rules and signaling conventions for transferring data and control information between a master and a slave component. It supports efficient data transfer, burst transactions, out-of-order execution, and multiple outstanding transactions.
 
-### Key features of the AXI protocol include:
+##### Key features of the AXI protocol include:
 
 1. Unidirectional Channels: AXI consists of separate unidirectional channels for address, data, control, and response signals. This allows simultaneous and independent transfer of different types of information.
 
@@ -20,4 +20,4 @@
 
 7. Addressing Modes: AXI supports different addressing modes, such as incremental addressing, wrapping addressing, and non-incremental addressing, providing flexibility in accessing memory locations.
 
-### The AXI protocol has become a de facto standard in the industry due to its flexibility, performance, and widespread adoption. It simplifies the integration of IP cores from different vendors into complex SoC designs by providing a common interface standard.
+##### The AXI protocol has become a de facto standard in the industry due to its flexibility, performance, and widespread adoption. It simplifies the integration of IP cores from different vendors into complex SoC designs by providing a common interface standard.
