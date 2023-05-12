@@ -12,7 +12,7 @@ class master_driver extends uvm_driver #(master_seq_i);
     endfunction
 
     function void connect_phase(uvm_phase phase);
-
+        //config_db
     endfunction
 
     task run_phase(uvm_phase phase);
@@ -22,6 +22,7 @@ class master_driver extends uvm_driver #(master_seq_i);
     function send_to_dut(master_seq_i seqi);
         
     endfunction
+    
     function write_addr(master_seq_i seqi);
 
     endfunction
@@ -30,12 +31,14 @@ class master_driver extends uvm_driver #(master_seq_i);
 
     endfunction
 
-    function read_addr(master_seq_i seqi);
-
-    endfunction
     function write_resp(master_seq_i seqi);
 
     endfunction
+    
+    function read_addr(master_seq_i seqi);
+
+    endfunction
+ 
     function read_data(master_seq_i seqi);
 
     endfunction

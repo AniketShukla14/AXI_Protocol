@@ -11,9 +11,21 @@ super.new(name,parent);
     //config db;
     endfunction
 
-    // task run_phase(uvm_phase phase);
+    function void connect_phase(uvm_phase phase);
+
+    endfunction
+
+    task run_phase(uvm_phase phase);
 
 
-    // endtask
+    endtask
+    
+   function void collect_data();
 
+   endfunction
+   function void collect_resp();
+
+
+   endfunction
+   
 endclass

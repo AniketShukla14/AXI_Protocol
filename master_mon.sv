@@ -15,7 +15,19 @@ class master_mon extends uvm_monitor;
     //config line 
  endfunction
 
+ function void connect_phase(uvm_phase phase);
+
+ endfunction
+
    virtual task run_phase(uvm_phase phase);
 // commands 
    endtask
+
+   function void collect_data();
+
+   endfunction
+   function void collect_resp();
+
+
+   endfunction
 endclass
